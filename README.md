@@ -26,15 +26,7 @@ The result is a scalable, structured competitive intelligence foundation ready f
 
 ## Architecture
 
-Apify (Scheduled Scraper)
-↓
-Airtable (Central Intelligence Database)
-↓
-Python Intelligence Layer
-↓
-OpenAI (Topic Summarization)
-↓
-Airtable Update (Processed State)
+Apify (Scheduled Scraper) --> Airtable (Central Intelligence Database) --> Python Intelligence Layer --> OpenAI (Topic Summarization) --> Airtable Update (Processed State)
 
 
 ---

@@ -117,11 +117,17 @@ Version 2 introduced significant architectural improvements:
 ## Project Structure
 
 src/
+
 ├── main.py # Pipeline entry point
+
 ├── airtable_client.py # Airtable integration
+
 ├── llm_client.py # LLM abstraction layer
+
 ├── models.py # Data models
+
 ├── prompts.py # Prompt templates
+
 └── config.py # Environment configuration
 
 ---
